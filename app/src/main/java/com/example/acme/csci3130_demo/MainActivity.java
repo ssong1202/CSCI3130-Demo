@@ -8,12 +8,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    //private the new item
     private Button button;
     private TextView output;
     private EditText input;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //set the activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button = (Button) findViewById(R.id.button);
